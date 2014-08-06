@@ -1,0 +1,262 @@
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "timer2.ngc" timer2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o timer2_map.ncd timer2.ngd timer2.pcf 
+par -w -intstyle ise -ol high -t 1 timer2_map.ncd timer2.ncd timer2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml timer2.twx timer2.ncd -o timer2.twr timer2.pcf 
+bitgen -intstyle ise -f timer2.ut timer2.ncd 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "timer2.ngc" timer2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o timer2_map.ncd timer2.ngd timer2.pcf 
+par -w -intstyle ise -ol high -t 1 timer2_map.ncd timer2.ncd timer2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml timer2.twx timer2.ncd -o timer2.twr timer2.pcf 
+bitgen -intstyle ise -f timer2.ut timer2.ncd 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "timer2.ngc" timer2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o timer2_map.ncd timer2.ngd timer2.pcf 
+par -w -intstyle ise -ol high -t 1 timer2_map.ncd timer2.ncd timer2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml timer2.twx timer2.ncd -o timer2.twr timer2.pcf 
+bitgen -intstyle ise -f timer2.ut timer2.ncd 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "timer2.ngc" timer2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o timer2_map.ncd timer2.ngd timer2.pcf 
+par -w -intstyle ise -ol high -t 1 timer2_map.ncd timer2.ncd timer2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml timer2.twx timer2.ncd -o timer2.twr timer2.pcf 
+bitgen -intstyle ise -f timer2.ut timer2.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "timer2.ngc" timer2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o timer2_map.ncd timer2.ngd timer2.pcf 
+par -w -intstyle ise -ol high -t 1 timer2_map.ncd timer2.ncd timer2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml timer2.twx timer2.ncd -o timer2.twr timer2.pcf 
+bitgen -intstyle ise -f timer2.ut timer2.ncd 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tim.ucf -p xc3s100e-cp132-5 "timer2.ngc" timer2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o timer2_map.ncd timer2.ngd timer2.pcf 
+par -w -intstyle ise -ol high -t 1 timer2_map.ncd timer2.ncd timer2.pcf 
+bitgen -intstyle ise -f timer2.ut timer2.ncd 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tim.ucf -p xc3s100e-cp132-5 "timer2.ngc" timer2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o timer2_map.ncd timer2.ngd timer2.pcf 
+par -w -intstyle ise -ol high -t 1 timer2_map.ncd timer2.ncd timer2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml timer2.twx timer2.ncd -o timer2.twr timer2.pcf -ucf tim.ucf 
+bitgen -intstyle ise -f timer2.ut timer2.ncd 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tim.ucf -p xc3s100e-cp132-5 "timer2.ngc" timer2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o timer2_map.ncd timer2.ngd timer2.pcf 
+par -w -intstyle ise -ol high -t 1 timer2_map.ncd timer2.ncd timer2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml timer2.twx timer2.ncd -o timer2.twr timer2.pcf -ucf tim.ucf 
+bitgen -intstyle ise -f timer2.ut timer2.ncd 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tim.ucf -p xc3s100e-cp132-5 "timer2.ngc" timer2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o timer2_map.ncd timer2.ngd timer2.pcf 
+par -w -intstyle ise -ol high -t 1 timer2_map.ncd timer2.ncd timer2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml timer2.twx timer2.ncd -o timer2.twr timer2.pcf -ucf tim.ucf 
+bitgen -intstyle ise -f timer2.ut timer2.ncd 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tim.ucf -p xc3s100e-cp132-5 "timer2.ngc" timer2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o timer2_map.ncd timer2.ngd timer2.pcf 
+par -w -intstyle ise -ol high -t 1 timer2_map.ncd timer2.ncd timer2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml timer2.twx timer2.ncd -o timer2.twr timer2.pcf -ucf tim.ucf 
+bitgen -intstyle ise -f timer2.ut timer2.ncd 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tim.ucf -p xc3s100e-cp132-5 "timer2.ngc" timer2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o timer2_map.ncd timer2.ngd timer2.pcf 
+par -w -intstyle ise -ol high -t 1 timer2_map.ncd timer2.ncd timer2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml timer2.twx timer2.ncd -o timer2.twr timer2.pcf -ucf tim.ucf 
+bitgen -intstyle ise -f timer2.ut timer2.ncd 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tim.ucf -p xc3s100e-cp132-5 "timer2.ngc" timer2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o timer2_map.ncd timer2.ngd timer2.pcf 
+par -w -intstyle ise -ol high -t 1 timer2_map.ncd timer2.ncd timer2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml timer2.twx timer2.ncd -o timer2.twr timer2.pcf -ucf tim.ucf 
+bitgen -intstyle ise -f timer2.ut timer2.ncd 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tim.ucf -p xc3s100e-cp132-5 "timer2.ngc" timer2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o timer2_map.ncd timer2.ngd timer2.pcf 
+par -w -intstyle ise -ol high -t 1 timer2_map.ncd timer2.ncd timer2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml timer2.twx timer2.ncd -o timer2.twr timer2.pcf -ucf tim.ucf 
+bitgen -intstyle ise -f timer2.ut timer2.ncd 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tim.ucf -p xc3s100e-cp132-5 "timer2.ngc" timer2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o timer2_map.ncd timer2.ngd timer2.pcf 
+par -w -intstyle ise -ol high -t 1 timer2_map.ncd timer2.ncd timer2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml timer2.twx timer2.ncd -o timer2.twr timer2.pcf -ucf tim.ucf 
+bitgen -intstyle ise -f timer2.ut timer2.ncd 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tim.ucf -p xc3s100e-cp132-5 "timer2.ngc" timer2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o timer2_map.ncd timer2.ngd timer2.pcf 
+par -w -intstyle ise -ol high -t 1 timer2_map.ncd timer2.ncd timer2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml timer2.twx timer2.ncd -o timer2.twr timer2.pcf -ucf tim.ucf 
+bitgen -intstyle ise -f timer2.ut timer2.ncd 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tim.ucf -p xc3s100e-cp132-5 "timer2.ngc" timer2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o timer2_map.ncd timer2.ngd timer2.pcf 
+par -w -intstyle ise -ol high -t 1 timer2_map.ncd timer2.ncd timer2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml timer2.twx timer2.ncd -o timer2.twr timer2.pcf -ucf tim.ucf 
+bitgen -intstyle ise -f timer2.ut timer2.ncd 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tim.ucf -p xc3s100e-cp132-5 "timer2.ngc" timer2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o timer2_map.ncd timer2.ngd timer2.pcf 
+par -w -intstyle ise -ol high -t 1 timer2_map.ncd timer2.ncd timer2.pcf 
+bitgen -intstyle ise -f timer2.ut timer2.ncd 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tim.ucf -p xc3s100e-cp132-5 "timer2.ngc" timer2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o timer2_map.ncd timer2.ngd timer2.pcf 
+par -w -intstyle ise -ol high -t 1 timer2_map.ncd timer2.ncd timer2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml timer2.twx timer2.ncd -o timer2.twr timer2.pcf -ucf tim.ucf 
+bitgen -intstyle ise -f timer2.ut timer2.ncd 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tim.ucf -p xc3s100e-cp132-5 "timer2.ngc" timer2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o timer2_map.ncd timer2.ngd timer2.pcf 
+par -w -intstyle ise -ol high -t 1 timer2_map.ncd timer2.ncd timer2.pcf 
+bitgen -intstyle ise -f timer2.ut timer2.ncd 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tim.ucf -p xc3s100e-cp132-5 "timer2.ngc" timer2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o timer2_map.ncd timer2.ngd timer2.pcf 
+par -w -intstyle ise -ol high -t 1 timer2_map.ncd timer2.ncd timer2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml timer2.twx timer2.ncd -o timer2.twr timer2.pcf -ucf tim.ucf 
+bitgen -intstyle ise -f timer2.ut timer2.ncd 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tim.ucf -p xc3s100e-cp132-5 "timer2.ngc" timer2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o timer2_map.ncd timer2.ngd timer2.pcf 
+par -w -intstyle ise -ol high -t 1 timer2_map.ncd timer2.ncd timer2.pcf 
+bitgen -intstyle ise -f timer2.ut timer2.ncd 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tim.ucf -p xc3s100e-cp132-5 "timer2.ngc" timer2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o timer2_map.ncd timer2.ngd timer2.pcf 
+par -w -intstyle ise -ol high -t 1 timer2_map.ncd timer2.ncd timer2.pcf 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tim.ucf -p xc3s100e-cp132-5 "timer2.ngc" timer2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o timer2_map.ncd timer2.ngd timer2.pcf 
+par -w -intstyle ise -ol high -t 1 timer2_map.ncd timer2.ncd timer2.pcf 
+bitgen -intstyle ise -f timer2.ut timer2.ncd 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tim.ucf -p xc3s100e-cp132-5 "timer2.ngc" timer2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o timer2_map.ncd timer2.ngd timer2.pcf 
+par -w -intstyle ise -ol high -t 1 timer2_map.ncd timer2.ncd timer2.pcf 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tim.ucf -p xc3s100e-cp132-5 "timer2.ngc" timer2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o timer2_map.ncd timer2.ngd timer2.pcf 
+par -w -intstyle ise -ol high -t 1 timer2_map.ncd timer2.ncd timer2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml timer2.twx timer2.ncd -o timer2.twr timer2.pcf -ucf tim.ucf 
+bitgen -intstyle ise -f timer2.ut timer2.ncd 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tim.ucf -p xc3s100e-cp132-5 "timer2.ngc" timer2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o timer2_map.ncd timer2.ngd timer2.pcf 
+par -w -intstyle ise -ol high -t 1 timer2_map.ncd timer2.ncd timer2.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tim.ucf -p xc3s100e-cp132-5 "timer2.ngc" timer2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o timer2_map.ncd timer2.ngd timer2.pcf 
+par -w -intstyle ise -ol high -t 1 timer2_map.ncd timer2.ncd timer2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml timer2.twx timer2.ncd -o timer2.twr timer2.pcf -ucf tim.ucf 
+bitgen -intstyle ise -f timer2.ut timer2.ncd 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tim.ucf -p xc3s100e-cp132-5 "timer2.ngc" timer2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o timer2_map.ncd timer2.ngd timer2.pcf 
+par -w -intstyle ise -ol high -t 1 timer2_map.ncd timer2.ncd timer2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml timer2.twx timer2.ncd -o timer2.twr timer2.pcf -ucf tim.ucf 
+bitgen -intstyle ise -f timer2.ut timer2.ncd 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tim.ucf -p xc3s100e-cp132-5 "timer2.ngc" timer2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o timer2_map.ncd timer2.ngd timer2.pcf 
+par -w -intstyle ise -ol high -t 1 timer2_map.ncd timer2.ncd timer2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml timer2.twx timer2.ncd -o timer2.twr timer2.pcf -ucf tim.ucf 
+bitgen -intstyle ise -f timer2.ut timer2.ncd 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tim.ucf -p xc3s100e-cp132-5 "timer2.ngc" timer2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o timer2_map.ncd timer2.ngd timer2.pcf 
+par -w -intstyle ise -ol high -t 1 timer2_map.ncd timer2.ncd timer2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml timer2.twx timer2.ncd -o timer2.twr timer2.pcf -ucf tim.ucf 
+bitgen -intstyle ise -f timer2.ut timer2.ncd 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tim.ucf -p xc3s100e-cp132-5 "timer2.ngc" timer2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o timer2_map.ncd timer2.ngd timer2.pcf 
+par -w -intstyle ise -ol high -t 1 timer2_map.ncd timer2.ncd timer2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml timer2.twx timer2.ncd -o timer2.twr timer2.pcf -ucf tim.ucf 
+bitgen -intstyle ise -f timer2.ut timer2.ncd 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tim.ucf -p xc3s100e-cp132-5 "timer2.ngc" timer2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o timer2_map.ncd timer2.ngd timer2.pcf 
+par -w -intstyle ise -ol high -t 1 timer2_map.ncd timer2.ncd timer2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml timer2.twx timer2.ncd -o timer2.twr timer2.pcf -ucf tim.ucf 
+bitgen -intstyle ise -f timer2.ut timer2.ncd 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tim.ucf -p xc3s100e-cp132-5 "timer2.ngc" timer2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o timer2_map.ncd timer2.ngd timer2.pcf 
+par -w -intstyle ise -ol high -t 1 timer2_map.ncd timer2.ncd timer2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml timer2.twx timer2.ncd -o timer2.twr timer2.pcf -ucf tim.ucf 
+bitgen -intstyle ise -f timer2.ut timer2.ncd 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tim.ucf -p xc3s100e-cp132-5 "timer2.ngc" timer2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o timer2_map.ncd timer2.ngd timer2.pcf 
+par -w -intstyle ise -ol high -t 1 timer2_map.ncd timer2.ncd timer2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml timer2.twx timer2.ncd -o timer2.twr timer2.pcf -ucf tim.ucf 
+bitgen -intstyle ise -f timer2.ut timer2.ncd 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tim.ucf -p xc3s100e-cp132-5 "timer2.ngc" timer2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o timer2_map.ncd timer2.ngd timer2.pcf 
+par -w -intstyle ise -ol high -t 1 timer2_map.ncd timer2.ncd timer2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml timer2.twx timer2.ncd -o timer2.twr timer2.pcf -ucf tim.ucf 
+bitgen -intstyle ise -f timer2.ut timer2.ncd 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tim.ucf -p xc3s100e-cp132-5 "timer2.ngc" timer2.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tim.ucf -p xc3s100e-cp132-5 "timer2.ngc" timer2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o timer2_map.ncd timer2.ngd timer2.pcf 
+par -w -intstyle ise -ol high -t 1 timer2_map.ncd timer2.ncd timer2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml timer2.twx timer2.ncd -o timer2.twr timer2.pcf -ucf tim.ucf 
+bitgen -intstyle ise -f timer2.ut timer2.ncd 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tim.ucf -p xc3s100e-cp132-5 "timer2.ngc" timer2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o timer2_map.ncd timer2.ngd timer2.pcf 
+par -w -intstyle ise -ol high -t 1 timer2_map.ncd timer2.ncd timer2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml timer2.twx timer2.ncd -o timer2.twr timer2.pcf -ucf tim.ucf 
+bitgen -intstyle ise -f timer2.ut timer2.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tim.ucf -p xc3s100e-cp132-5 "timer2.ngc" timer2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o timer2_map.ncd timer2.ngd timer2.pcf 
+par -w -intstyle ise -ol high -t 1 timer2_map.ncd timer2.ncd timer2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml timer2.twx timer2.ncd -o timer2.twr timer2.pcf -ucf tim.ucf 
+bitgen -intstyle ise -f timer2.ut timer2.ncd 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tim.ucf -p xc3s100e-cp132-5 "timer2.ngc" timer2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o timer2_map.ncd timer2.ngd timer2.pcf 
+par -w -intstyle ise -ol high -t 1 timer2_map.ncd timer2.ncd timer2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml timer2.twx timer2.ncd -o timer2.twr timer2.pcf -ucf tim.ucf 
+bitgen -intstyle ise -f timer2.ut timer2.ncd 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tim.ucf -p xc3s100e-cp132-5 "timer2.ngc" timer2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o timer2_map.ncd timer2.ngd timer2.pcf 
+par -w -intstyle ise -ol high -t 1 timer2_map.ncd timer2.ncd timer2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml timer2.twx timer2.ncd -o timer2.twr timer2.pcf -ucf tim.ucf 
+bitgen -intstyle ise -f timer2.ut timer2.ncd 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tim.ucf -p xc3s100e-cp132-5 "timer2.ngc" timer2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o timer2_map.ncd timer2.ngd timer2.pcf 
+par -w -intstyle ise -ol high -t 1 timer2_map.ncd timer2.ncd timer2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml timer2.twx timer2.ncd -o timer2.twr timer2.pcf -ucf tim.ucf 
+bitgen -intstyle ise -f timer2.ut timer2.ncd 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/timer2/timer2.xst" -ofn "C:/Users/Duy/ISE Projects/timer2/timer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tim.ucf -p xc3s100e-cp132-5 "timer2.ngc" timer2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o timer2_map.ncd timer2.ngd timer2.pcf 
+par -w -intstyle ise -ol high -t 1 timer2_map.ncd timer2.ncd timer2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml timer2.twx timer2.ncd -o timer2.twr timer2.pcf -ucf tim.ucf 
+bitgen -intstyle ise -f timer2.ut timer2.ncd 

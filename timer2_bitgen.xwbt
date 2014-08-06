@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Duy\ISE Projects\timer2\timer2.ncd
+OUTFILE=C:\Users\Duy\ISE Projects\timer2\timer2.bit
+FAMILY=Spartan3E
+PART=xc3s100e-5cp132
+WORKINGDIR=C:\Users\Duy\ISE Projects\timer2
+LICENSE=WebPack
+USER_INFO=210913217_0_0_220
